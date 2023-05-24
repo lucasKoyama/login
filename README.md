@@ -20,7 +20,7 @@ npm install
 ## Autores
 
 - [@lucasKoyama](https://github.com/lucasKoyama)
-- [@HenriqueRibeiro]
+- [@ribeiro-henrique](https://github.com/ribeiro-henrique)
 
 ## Demonstração
 [demonstração.webm](https://github.com/lucasKoyama/login/assets/121680414/26301951-9473-497f-b78c-a725762bfc08)
