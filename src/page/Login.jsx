@@ -28,9 +28,8 @@ class Login extends React.Component {
 
   // Detect Caps Lock
   detectCapsPress = (event) => {
-    const { capsLockOn } = this.state;
     const capsLockState = event.getModifierState('CapsLock');
-    this.setState({capsLockOn: capsLockState && !capsLockOn});
+    this.setState({capsLockOn: capsLockState});
   };
 
   detectCapsClick = (event) => {

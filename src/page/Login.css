@@ -22,13 +22,13 @@
   transition: all 0.5s;
 }
 
-.title {
+.login-section .title {
   font-size: 1.5em;
   font-weight: 600;
   margin: 10px 0;
 }
 
-.user-login {
+.login-section .user-login {
   align-items: center;
   background-color: white;
   border-radius: 0.5rem;
@@ -39,29 +39,29 @@
   padding: 25px;
 }
 
-.user-login input {
+.login-section .user-login input {
   padding-left: 40px !important;
   height: 20px;
   width: 100%;
 }
 
-svg {
+.login-section svg {
   position: absolute;
   top: 15px;
   left: 10px;
 }
 
-.login-btn {
+.login-section .login-btn {
   margin-left: 0 ! important;
   width: 100% ! important;
 }
 
-.login-btn:disabled {
+.login-section .login-btn:disabled {
   background: rgba(17, 17, 17, 0.1) ! important;
   color: rgba(17, 17, 17, 0.2) ! important;
 }
 
-.login-btn:enabled {
+.login-section .login-btn:enabled {
   color: white ! important;
   cursor: pointer ! important;
   font-weight: 700 ! important;
